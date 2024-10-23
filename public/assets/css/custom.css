@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a, a>i, a:visited, a:visited>i, a:link, a:link>i, a:target, a:target>i {
+    color: inherit
+}
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+  }
+aside {
+    position: fixed;
+    width: 240px;
+    z-index: 999999999;
+    background-color: #ccc;
+    min-height: 100vh;
+}
+
+#app .navbar {
+    width: calc(100vw - 240px);
+    margin-left: 240px
+}
+
+#app main.content-wrapper {
+    width: calc(100vw - 240px);
+    margin-left: 240px
+}
+
+#app h3:first-of-type {
+    padding-top: 0.5rem;
+    
+}
+.bulk .row {
+    border-bottom: 1px solid #ccc;
+    
+}
+hr {
+    border-bottom: 2px solid #000;
+    margin-top: 0
+}
+
+button.controls-btn {
+    padding: 0;
+    width: 40px;
+    height: 26px;
+    overflow: hidden
+}
+
+button.controls-btn a.fa {
+    display:block; 
+    width: 100%;
+    height:100%;
+    padding: 5px 8px
+}
+
+button.controls-btn a.warning {
+    color: var(--bs-yellow);
+}
+button.controls-btn a.danger {
+    color: var(--bs-red);
+}
+button.controls-btn a.primary {
+    color: var(--bs-blue);
+}
+button.controls-btn a.success {
+    color: var(--bs-green);
+}
+button.controls-btn a:hover {
+    color: #fff;
+}
+button.controls-btn a.warning:hover {
+    background-color: var(--bs-yellow);
+}
+button.controls-btn a.danger:hover {
+    background-color: var(--bs-red);
+}
+button.controls-btn a.primary:hover {
+    background-color: var(--bs-blue);
+}
+button.controls-btn a.success:hover {
+    background-color: var(--bs-green);
+}
